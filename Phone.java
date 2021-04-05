@@ -30,14 +30,14 @@ public class Phone {
 	    
 	}
 	
-	void printWeight(int quantity, double weight) {
+	void printWeight(int quantity, double weight) { //method to print weight
 		double totalWeight = quantity*weight;
 		System.out.println("Quantity of purchases \t: " + quantity);
 		System.out.println("Total weight \t\t: " + totalWeight + " gram");
 		System.out.println("___________________________________________");
 	}
 	
-	void printPayment(int price, int month) {
+	void printPayment(int price, int month) { //method to print payment
 		int totalPayment = price/month;
 		System.out.println("Total months for payment :" + month + " months");
 		System.out.println("Total payment \t\t: RM" + totalPayment);
